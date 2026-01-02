@@ -17,7 +17,7 @@ This framework provides a structured methodology for development work with AI as
 | Phase | File | Purpose |
 |-------|------|---------|
 | **PLAN** | `plan.md` | High-level analysis and detailed planning with TDD discipline |
-| **DO** | `prompt-template-for-coding.md` | Unified template combining all phases |
+| **PLAN + DO** | `prompt-template-for-coding.md` | Unified template including CONTEXT, REQUEST, and complete PLAN phase (Part 1 & 2) with TDD guidelines |
 | **CHECK** | `check.md` | Completeness check and closure verification (8 phases) |
 | **VERIFY** | (integrated in check.md) | Build verification, testing validation, deployment readiness - uses `build-verification-agent` |
 | **RETROSPECT (ACT)** | `retrospect.md` | Post-session analysis and improvement identification |
@@ -87,11 +87,39 @@ graph LR
 
 ## Usage with Claude Code
 
-1. Read the appropriate prompt template before starting work
-2. Follow the structured workflow (PLAN → DO → CHECK → VERIFY → RETROSPECT)
-3. Use specialized subagents via the Task tool for complex tasks
-4. Run completeness checks before creating PRs
-5. Conduct retrospectives to capture learnings
+### Quick Start
+
+1. **PLAN Phase**: Use `prompts-templates/prompt-template-for-coding.md` as your main prompt
+   - Fill in the CONTEXT section (date, timezone, workspace)
+   - Add your requirement in the REQUEST REQUIREMENT INSTRUCTION section
+   - The template includes Part 1 (High-Level Analysis) and Part 2 (Detailed Planning)
+
+2. **DO Phase**: Execute following the plan
+   - Say "Begin with Step 1" or "Proceed with Step 1"
+   - Follow strict TDD: Red-Green-Refactor cycle
+   - Use specialized subagents via the Task tool for complex tasks
+
+3. **CHECK Phase**: Use `prompts-templates/check.md`
+   - Run through the 8-phase completeness verification
+   - Ensure all acceptance criteria are met
+
+4. **VERIFY Phase**: Invoke `build-verification-agent`
+   - Verify everything compiles successfully
+   - Ensure all requirements are implemented
+
+5. **RETROSPECT Phase**: Use `prompts-templates/retrospect.md`
+   - Analyze what went well and what didn't
+   - Identify "The One Most Valuable Change" for next session
+
+### Prompt Template Structure
+
+The `prompt-template-for-coding.md` includes:
+- **CONTEXT**: Date, timezone, workspace directory, reads (CLAUDE.md, PRDs, etc.)
+- **REQUEST REQUIREMENT INSTRUCTION**: Environment details and your specific requirement
+- **PART 1: HIGH-LEVEL ANALYSIS**: Business problem, codebase investigation, technical approach
+- **PART 2: DETAILED PLANNING**: Implementation steps with TDD discipline, acceptance criteria
+- **TDD Guidelines**: Red-Green-Refactor cycle and principles
+- **CRITICAL REMINDERS**: Ultrathink, use agents, iterate and review
 
 See [CLAUDE.md](CLAUDE.md) for detailed guidance on using this framework with Claude Code.
 
