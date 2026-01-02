@@ -41,10 +41,8 @@ graph LR
     A[PLAN] --> B[DO]
     B --> C[CHECK]
     C --> D[VERIFY]
-    D --> E{Complete?}
-    E -->|No| B
-    E -->|Yes| F[RETROSPECT]
-    F --> A
+    D --> E[RETROSPECT]
+    E --> A
 ```
 
 ### PLAN Phase
