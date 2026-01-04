@@ -3,6 +3,10 @@
 - Today's Date: [Input today's date here]
 - Timezone: [Input timezone you are in]
 - Workspace Directory: [Your directory or repo from where Claude Code should be working]
+- OS: [Operating System]
+- Model Name:	[Desktop or Laptop name]
+- Chip: [Intel or Silicon]
+- Uname: [Output of uname -a in terminal]
 - Read @CLAUDE.md
 - [Any other reads like PRD or Figma or other files]
 - Read, analyze and understand current workspace and repo(s).
