@@ -19,6 +19,18 @@
 
 **[YOUR DETAILED REQUIREMENT / INSTRUCTION / SCREENSHOTS / IMAGES / PDF / FILES GOES HERE]**
 
+## CURRENT SITUATION
+[Provide a detailed explanation of the situation or problem you are working on right now]
+
+## OBJECTIVE
+[Provide a 1-liner set of objectives that you want to achieve as a user, as a product or something else]
+
+## TASK
+[Provide an extremely detailed list of tasks that needs to be completed. Preferred is that you focus on 1 task at a time.]
+
+## QUESTIONS
+[Provide a detailed list of questions that you want to ask the LLM]
+
 ---
 
 ## PART 1: HIGH-LEVEL ANALYSIS
