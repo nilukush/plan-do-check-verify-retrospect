@@ -22,6 +22,9 @@
 ## CURRENT SITUATION
 [Provide a detailed explanation of the situation or problem you are working on right now]
 
+## PROPOSED SOLUTION
+[If you know of a solution that the LLM should implement then share that solution here]
+
 ## OBJECTIVE
 [Provide a 1-liner set of objectives that you want to achieve as a user, as a product or something else]
 
