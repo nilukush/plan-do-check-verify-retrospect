@@ -31,6 +31,12 @@
 ## QUESTIONS
 [Provide a detailed list of questions that you want to ask the LLM]
 
+## CONSTRAINTS
+[Provide any and all constraints that you may have for your product and application]
+
+## BRAINSTORMING
+[Use this section when you just want to brainstorm with the LLM in a structured way]
+
 ---
 
 ## PART 1: HIGH-LEVEL ANALYSIS
