@@ -353,6 +353,7 @@ Follow this methodology rigorously to ensure robust, well-tested, and maintainab
 - Do an extremely detailed careful deep research analysis step by step
 - Always propose use only most standard enterprise grade right correct perfect best solution
 - Use Skills
-- Use all agents available at your disposal as per needs and requirements (you are not using agents available to you)
+- Create Agent Team(s)
+- Use all sub-agents available at your disposal as per needs and requirements (you are not using sub-agents available to you)
 - Search or research online
 - You will iterate multiple times before providing your answer or inputs. Review, rate and score each answer or input and then finally provide 1 recommended answer or input based on review, rating and scoring if it is above a certain threshold
