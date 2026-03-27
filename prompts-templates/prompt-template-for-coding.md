@@ -17,6 +17,7 @@
 - Based on this and previous conversation
   - Environment: [local / dev / staging / pre-prod / prod]
   - Ports: [use standard / non-stanard ports for services if you are running multiple systems]
+	  - When there is port conflict change the port unless it is the same application which has the port in use
 
 **[YOUR DETAILED REQUIREMENT / INSTRUCTION / SCREENSHOTS / IMAGES / PDF / FILES GOES HERE]**
 
