@@ -8,9 +8,10 @@
 - Chip: [Intel or Silicon]
 - Uname: [Output of uname -a in terminal]
 - Read @CLAUDE.md
-- [Any other reads like PRD or Figma or other files]
 - Read, analyze and understand current workspace and repo(s)
 - Read progress, context, memory
+- Read git commits
+- [Any other reads like PRD or Figma or other files]
 
 # REQUEST REQUIREMENT INSTRUCTION
 
