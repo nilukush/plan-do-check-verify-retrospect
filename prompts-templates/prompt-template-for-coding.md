@@ -351,7 +351,8 @@ Follow this methodology rigorously to ensure robust, well-tested, and maintainab
 
 ---
 
-- Update and Compact @CLAUDE.md
+- Update and compact @CLAUDE.md
+- Save progress, context to memory
 
 ---
 
