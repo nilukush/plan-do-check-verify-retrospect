@@ -13,6 +13,14 @@
 - Read git commits
 - [Any other reads like PRD or Figma or other files]
 
+## Existing Infrastructure Account Details
+[Here you can share all your existing account details. For example, for AWS, GCP or other infrastructure or resources. For example, something like
+- Read @[path-to-central-docs]/aws.md]
+
+## Project Documentation, Context, Specs, Plans
+[Here you can share all project documentation or specs or plans or saved context and sessions. For example, something like
+- Read @docs/design.md]
+
 # REQUEST REQUIREMENT INSTRUCTION
 
 - Based on this and previous conversation
