@@ -1,15 +1,19 @@
 # CONTEXT
 
-- Today's Date: [Input today's date here]
-- Timezone: [Input timezone you are in]
-- Workspace Directory: [Your directory or repo from where Claude Code should be working]
-- OS: [Operating System]
-- Model Name:	[Desktop or Laptop name]
-- Chip: [Intel or Silicon]
-- Uname: [Output of uname -a in terminal]
+| **NAME** | **VALUE** |
+| :-------: | :------: |
+| Today's Date | [Input today's date here] |
+| Timezone | [Input timezone you are in] |
+| Workspace Directory | [Your directory or repo from where Claude Code should be working] |
+| OS | [Operating System] |
+| Model Name |	[Desktop or Laptop name] |
+| Chip | [Intel or Silicon] |
+| Uname | [Output of uname -a in terminal] |
+
 - Read @CLAUDE.md
 - Read, analyze and understand current workspace and repo(s)
 - Read progress, context, memory
+	- Use skills
 - Read git commits
 - [Any other reads like PRD or Figma or other files]
 
@@ -17,16 +21,30 @@
 [Here you can share all your existing account details. For example, for AWS, GCP or other infrastructure or resources. For example, something like
 - Read @[path-to-central-docs]/aws.md]
 
+## CREATED INFRASTRUCTURE PROJECT DETAILS
+[Here you can share details of projects created in the infrastructure account. For example, you created a {your-project} in your AWS account. Then you can have something like
+- Read @[path-to-repository]/aws-{your-project}.md]
+
 ## Project Documentation, Context, Specs, Plans
 [Here you can share all project documentation or specs or plans or saved context and sessions. For example, something like
 - Read @docs/design.md]
 
+## Project Configuration
+| **ENVIRONMENT** | **CONFGURATION FILE PATH** |
+| :-------------: | :------------------------: |
+| LOCAL | @.env or @env.local |
+| DEVELOPMENT | @.env.dev |
+| STAGING | @.env.staging |
+| PRODUCTION | @env.production |
+
 # REQUEST REQUIREMENT INSTRUCTION
 
 - Based on this and previous conversation
-  - Environment: [local / dev / staging / pre-prod / prod]
-  - Ports: [use standard / non-stanard ports for services if you are running multiple systems]
-	  - When there is port conflict change the port unless it is the same application which has the port in use
+
+| **NAME** | **VALUE** | **META INFORMATION** |
+| :------: | :-------: | :------------------: |
+| Environment | [local / dev / staging / pre-prod / prod] | |
+| Ports | [use standard / non-stanard ports for services if you are running multiple systems] | When there is port conflict change the port unless it is the same application which has the port in use |
 
 **[YOUR DETAILED REQUIREMENT / INSTRUCTION / SCREENSHOTS / IMAGES / PDF / FILES GOES HERE]**
 
