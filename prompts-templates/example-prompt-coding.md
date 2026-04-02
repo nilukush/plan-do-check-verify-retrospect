@@ -68,7 +68,7 @@ node:internal/modules/run_main:107
     triggerUncaughtException(
     ^
 Error: Transform failed with 1 error:
-/Users/nileshkumar/gh/better-review-ratings-for-movies-series/scripts/import-comprehensive-titles.ts:348:8: ERROR: Expected "finally" but found "else"
+/better-review-ratings-for-movies-series/scripts/import-comprehensive-titles.ts:348:8: ERROR: Expected "finally" but found "else"
     at failureErrorWithLog (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:1748:15)
     at /better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:1017:50
     at responseCallbacks.<computed> (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:884:9)
