@@ -10,7 +10,9 @@
 | Chip | [Intel or Silicon] |
 | Uname | [Output of uname -a in terminal] |
 
-- Read @CLAUDE.md
+- @CLAUDE.md
+- @AGENTS.md
+- @MEMORY.md
 - Read, analyze and understand current workspace and repo(s)
 - Read progress, context, memory
 	- Use skills
@@ -45,8 +47,6 @@
 | :------: | :-------: | :------------------: |
 | Environment | [local / dev / staging / pre-prod / prod] | |
 | Ports | [use standard / non-stanard ports for services if you are running multiple systems] | When there is port conflict change the port unless it is the same application which has the port in use |
-
-**[YOUR DETAILED REQUIREMENT / INSTRUCTION / SCREENSHOTS / IMAGES / PDF / FILES GOES HERE]**
 
 ## CURRENT SITUATION
 [Provide a detailed explanation of the situation or problem you are working on right now]
