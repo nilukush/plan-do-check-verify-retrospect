@@ -8,7 +8,7 @@
 | OS | macOS |
 | Model Name |	MacBook Pro |
 | Chip | Apple M1 Pro |
-| Uname | Darwin MacBookPro 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:29 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6000 arm64 |
+| Uname | Darwin MacBookPro XXX |
 
 - @CLAUDE.md
 - @AGENTS.md
