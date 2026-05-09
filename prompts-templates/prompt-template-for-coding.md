@@ -23,7 +23,7 @@
 [Here you can share all your existing account details. For example, for AWS, GCP or other infrastructure or resources. For example, something like
 - Read @[path-to-central-docs]/aws.md]
 
-## CREATED INFRASTRUCTURE PROJECT DETAILS
+## Created Infrastructure Project Details
 [Here you can share details of projects created in the infrastructure account. For example, you created a {your-project} in your AWS account. Then you can have something like
 - Read @[path-to-repository]/aws-{your-project}.md]
 
