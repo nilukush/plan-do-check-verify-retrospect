@@ -1,114 +1,77 @@
 # CONTEXT
 
-| **NAME**            | **VALUE**                               |
-|:-------------------:|:---------------------------------------:|
-| Today's Date        | 01/04/2026 17:23                        |
-| Timezone            | GST                                     |
-| Workspace Directory | better-review-ratings-for-movies-series |
-| OS                  | macOS                                   |
-| Model Name          | MacBook Pro                             |
-| Chip                | Apple M1 Pro                            |
-| Uname               |                                         |
+| **NAME** | **VALUE** |
+| :-------: | :------: |
+| Today's Date | 09/05/2026 09:33 |
+| Timezone | GST |
+| Workspace Directory | `sustainable-programming-language` |
+| OS | macOS |
+| Model Name |	MacBook Pro |
+| Chip | Apple M1 Pro |
+| Uname | Darwin MacBookPro 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:29 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6000 arm64 |
 
-- Read @CLAUDE.md
+- @CLAUDE.md
+- @AGENTS.md
+- @MEMORY.md
 - Read, analyze and understand current workspace and repo(s)
-- Read progress, context from memory
-  - Use skills
+- Read progress, context, memory
+	- Use skills
 - Read git commits
 
 ## Existing Infrastructure Account Details
+-
 
-- Read @profile/infra-for-ai-assisted-coding/tmdb.md
-- Read @profile/infra-for-ai-assisted-coding/neon.md
-- Read @profile/infra-for-ai-assisted-coding/upstash.md
-- Read @profile/infra-for-ai-assisted-coding/vercel.md
-
-## CREATED INFRASTRUCTURE PROJECT DETAILS
-
-- Read @docs/neon-cinen.md
-- Read @docs/upstash-cinen.md
-- Read @docs/vercel-cinen.md
+## Created Infrastructure Project Details
+-
 
 ## Project Documentation, Context, Specs, Plans
-
-- Read @docs/superpowers/specs/2026-03-29-cinen-design.md
-- Read @docs/superpowers/plans/2026-03-29-cinen-phase1-foundation.md
-- Read @docs/production-implementation-roadmap.md
+- https://softjourn.com/insights/environmentally-friendly-programming-languages
+- https://www.ibm.com/think/topics/green-coding
+- https://blog.ansi.org/ansi/green-coding-carbon-conscious-coding/
+- https://labs.sogeti.com/are-there-sustainable-programming-languages/
+- https://www.askmecode.com/blog/the-green-code-revolution-how-sustainable-programming-languages-are-shaping-eco-friendly-tech/
+- @doc/superpowers/specs/2026-05-09-verd-language-design.md
+- @docs/superpowers/plans/2026-05-09-verdcc-core.md
 
 ## Project Configuration
-
 | **ENVIRONMENT** | **CONFGURATION FILE PATH** |
-|:---------------:|:--------------------------:|
-| LOCAL           | @.env                      |
+| :-------------: | :------------------------: |
+| LOCAL | @.env or @env.local |
+| DEVELOPMENT | @.env.dev |
+| STAGING | @.env.staging |
+| PRODUCTION | @env.production |
 
 # REQUEST REQUIREMENT INSTRUCTION
 
 - Based on this and previous conversation
 
-| **NAME**    | **VALUE**                          | **META INFORMATION**                                                                                    |
-|:-----------:|:----------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-| Environment | local                              |                                                                                                         |
-| Ports       | use non-stanard ports for services | When there is port conflict change the port unless it is the same application which has the port in use |
+| **NAME** | **VALUE** | **META INFORMATION** |
+| :------: | :-------: | :------------------: |
+| Environment | local | |
+| Ports | use non-stanard ports for services if you are running multiple systems | When there is port conflict change the port unless it is the same application which has the port in use |
 
 ## CURRENT SITUATION
-
-- action: i ran the script to import more titles
-  - output
-
-```
-(base) ➜  better-review-ratings-for-movies-series git:(main) ✗ export DATABASE_URL="postgresql://neondb_owner:npg_iwLOrdQU0Gc2@ep-hidden-mouse-amdho37l-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require\n"
-
-(base) ➜  better-review-ratings-for-movies-series git:(main) ✗ npm run import:comprehensive
-
-> better-review-ratings-for-movies-series@0.1.0 import:comprehensive
-> tsx scripts/import-comprehensive-titles.ts
-
-
-node:internal/modules/run_main:107
-    triggerUncaughtException(
-    ^
-Error: Transform failed with 1 error:
-/better-review-ratings-for-movies-series/scripts/import-comprehensive-titles.ts:348:8: ERROR: Expected "finally" but found "else"
-    at failureErrorWithLog (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:1748:15)
-    at /better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:1017:50
-    at responseCallbacks.<computed> (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:884:9)
-    at handleIncomingPacket (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:939:12)
-    at Socket.readFromStdout (/better-review-ratings-for-movies-series/node_modules/tsx/node_modules/esbuild/lib/main.js:862:7)
-    at Socket.emit (node:events:508:20)
-    at addChunk (node:internal/streams/readable:564:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
-    at Readable.push (node:internal/streams/readable:395:5)
-    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
-  name: 'TransformError'
-}
-
-Node.js v25.8.2
-```
+-
 
 ## PROPOSED SOLUTION
-
-- search or research online
+- Search or research online
 
 ## OBJECTIVE
-
-- to have cinen working with all functionalities in production with 100% success
+- to create a beautiful sustainable programming language that is fast memory efficient like C, C++, Rust and supports AI and ML like Python
 
 ## TASK
-
-- todo: analyze debug
+- todo
+		- use skills
+  		- create agent team
 
 ## QUESTIONS
-
-- 
+-
 
 ## CONSTRAINTS
-
 - I will not pay anything for this project
-  
-  - EXCEPT paying for AI to write code
+	- EXCEPT paying for AI to write code
 
 ## BRAINSTORMING
-
 - 
 
 ---
@@ -411,10 +374,8 @@ Follow this methodology rigorously to ensure robust, well-tested, and maintainab
 
 ---
 
-- Update compact @CLAUDE.md
-  - use skills
+- Update and compact @CLAUDE.md
 - Save progress, context to memory
-  - use skills
 
 ---
 
