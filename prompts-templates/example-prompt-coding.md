@@ -1,37 +1,37 @@
 # CONTEXT
-
 | **NAME** | **VALUE** |
 | :-------: | :------: |
-| Today's Date | 09/05/2026 09:33 |
+| Today's Date | 19/05/2026 12:05 |
 | Timezone | GST |
-| Workspace Directory | `sustainable-programming-language` |
+| Workspace Directory | `pdf-reader-books-scanhd` |
 | OS | macOS |
 | Model Name |	MacBook Pro |
 | Chip | Apple M1 Pro |
-| Uname | Darwin MacBookPro XXX |
+| Uname | Darwin MacBookPro 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:29 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6000 arm64 |
 
 - @CLAUDE.md
 - @AGENTS.md
 - @MEMORY.md
 - Read, analyze and understand current workspace and repo(s)
-- Read progress, context, memory
+- Read progress, context from memory
 	- Use skills
 - Read git commits
 
-## Existing Infrastructure Account Details
--
+## Existing Resource Details
+- @/Users/nileshkumar/Dropbox/Users/nilesh.kumar/Documents/profile/infra-for-ai-assisted-coding/my-laptop.md
 
-## Created Infrastructure Project Details
--
+## Created Resource Details
+- 
 
 ## Project Documentation, Context, Specs, Plans
-- https://softjourn.com/insights/environmentally-friendly-programming-languages
-- https://www.ibm.com/think/topics/green-coding
-- https://blog.ansi.org/ansi/green-coding-carbon-conscious-coding/
-- https://labs.sogeti.com/are-there-sustainable-programming-languages/
-- https://www.askmecode.com/blog/the-green-code-revolution-how-sustainable-programming-languages-are-shaping-eco-friendly-tech/
-- @doc/superpowers/specs/2026-05-09-verd-language-design.md
-- @docs/superpowers/plans/2026-05-09-verdcc-core.md
+- @docs/superpowers/specs/2026-05-09-libreva-design.md
+- @docs/superpowers/plans/2026-05-09-libreva-implementation.md
+- @docs/superpowers/analysis/2026-05-19-scan-paths-configuration-analysis.md
+- @docs/superpowers/analysis/2026-05-18-three-issues-root-cause-analysis.md
+- @docs/superpowers/plans/2026-05-19-scan-paths-configuration-implementation.md
+- @docs/superpowers/reports/2026-05-19-custom-scan-paths-implementation-complete.md
+- @thoughts/ledgers/CONTINUITY_ses_1ceb.md
+- Read memory ID: `ctDsCN93AXcC7ZYF9Anf7P` from supermemory
 
 ## Project Configuration
 | **ENVIRONMENT** | **CONFGURATION FILE PATH** |
@@ -48,24 +48,83 @@
 | **NAME** | **VALUE** | **META INFORMATION** |
 | :------: | :-------: | :------------------: |
 | Environment | local | |
-| Ports | use non-stanard ports for services if you are running multiple systems | When there is port conflict change the port unless it is the same application which has the port in use |
+| Ports | use non-stanard ports for services | When there is port conflict change the port unless it is the same application which has the port in use |
 
 ## CURRENT SITUATION
--
+- feedbacks
+	- I believe you have missed several details in my prompt that I had shared with you including failing to read details from current files, repository, files shared in this prompt as well including maybe git commits as well
+ 
+	- I see ? for PDFs
+		- I had shared screenshots to prove the same
+		- q
+			- why did you think that ? is user perception?
+			- did you read all details i shared in my prompt? if not what made you fail to read all those details?
+		 
+	- i never said that I resized the window or toggle the sidebar
+		- q
+			- why did you assume that i did for you to analyze and comment about container dimensions change
+		 
+	- i did not hear anything on not able to scroll to see or read the top half of page when pdf file was loaded
+		- this was shared in my original prompt
+		- q
+			- had you looked into it as well?
+		 
+- comments on
+	- Check browser console when loading PDFs (look for errors like "Failed to render cover for X: {error}")
+		- i reopened relaunched libreva in local using command
+		- command
+	 
+```
+(base) ➜  pdf-reader-books-scanhd git:(main) unset HTTPS_PROXY HTTP_PROXY https_proxy http_proxy && npm run tauri dev 2>&1
+
+> libreva@0.1.0 tauri
+> tauri dev
+
+     Running BeforeDevCommand (`npm run dev`)
+
+> libreva@0.1.0 dev
+> vite
+
+(node:18377) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+  VITE v6.4.2  ready in 307 ms
+
+  ➜  Local:   http://localhost:1420/
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+        Info Watching /Users/nileshkumar/gh/pdf-reader-books-scanhd/src-tauri for changes...
+   Compiling libreva v0.1.0 (/Users/nileshkumar/gh/pdf-reader-books-scanhd/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.21s
+     Running `target/debug/libreva`
+```
+
+	- observations
+		- i do not see any way to check browser console or developer tools
+
+	- screenshots
+		- @/Users/nileshkumar/Dropbox/Screenshots/Screenshot2026-05-19at12.21.23PM.png
 
 ## PROPOSED SOLUTION
 - Search or research online
 
 ## OBJECTIVE
-- to create a beautiful sustainable programming language that is fast memory efficient like C, C++, Rust and supports AI and ML like Python
+- to create a beautiful powerful ebook reader that
+	- scans entire hard drive for pdfs, epubs and other ebook formats
+		- creates tags and classification for each file
+		- shows all these files in a desktop application grouped in some form
+	 
+	- has a beautiful user friendly ebook reader interface which has a feeling of reading a book
 
 ## TASK
 - todo
+	- analyze
+	- debug
 		- use skills
-  		- create agent team
+		- create agent teams
 
 ## QUESTIONS
--
+- q
+	- what do you need from me for you to do your job properly
 
 ## CONSTRAINTS
 - I will not pay anything for this project
@@ -374,7 +433,10 @@ Follow this methodology rigorously to ensure robust, well-tested, and maintainab
 
 ---
 
-- Update and compact @CLAUDE.md
+- Update and compact
+	- @CLAUDE.md
+	- @AGENTS.md
+	- @MEMORY.md
 - Save progress, context to memory
 
 ---
