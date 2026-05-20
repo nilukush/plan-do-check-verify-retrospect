@@ -14,7 +14,7 @@
 - @AGENTS.md
 - @MEMORY.md
 - Read, analyze and understand current workspace and repo(s)
-- Read progress, context, memory
+- Read progress, context from memory
 	- Use skills
 - Read git commits
 - [Any other reads like PRD or Figma or other files]
