@@ -19,11 +19,11 @@
 - Read git commits
 - [Any other reads like PRD or Figma or other files]
 
-## Existing Infrastructure Account Details
+## Existing Resource Details
 [Here you can share all your existing account details. For example, for AWS, GCP or other infrastructure or resources. For example, something like
 - Read @[path-to-central-docs]/aws.md]
 
-## Created Infrastructure Project Details
+## Created Resource Details
 [Here you can share details of projects created in the infrastructure account. For example, you created a {your-project} in your AWS account. Then you can have something like
 - Read @[path-to-repository]/aws-{your-project}.md]
 
@@ -369,7 +369,10 @@ Follow this methodology rigorously to ensure robust, well-tested, and maintainab
 
 ---
 
-- Update and compact @CLAUDE.md
+- Update and compact
+	- @CLAUDE.md
+ 	- @AGENTS.md
+  	- @MEMORY.md
 - Save progress, context to memory
 
 ---
