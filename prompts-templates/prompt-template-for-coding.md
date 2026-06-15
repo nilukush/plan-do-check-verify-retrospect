@@ -10,9 +10,6 @@
 | Chip | [Intel or Silicon] |
 | Uname | [Output of uname -a in terminal] |
 
-- @CLAUDE.md
-- @AGENTS.md
-- @MEMORY.md
 - Read, analyze and understand current workspace and repo(s)
 - Read progress, context from memory
 	- Use skills
@@ -30,6 +27,9 @@
 ## Project Documentation, Context, Specs, Plans
 [Here you can share all project documentation or specs or plans or saved context and sessions. For example, something like
 - Read @docs/design.md]
+- @CLAUDE.md
+- @AGENTS.md
+- @MEMORY.md
 
 ## Project Configuration
 | **ENVIRONMENT** | **CONFGURATION FILE PATH** |
