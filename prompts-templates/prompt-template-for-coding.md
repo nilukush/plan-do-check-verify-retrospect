@@ -39,6 +39,12 @@
 | STAGING | @.env.staging |
 | PRODUCTION | @env.production |
 
+## Response Output Style
+- Detailed
+- Deterministic
+- Structured
+- Formatted
+
 # REQUEST REQUIREMENT INSTRUCTION
 
 - Based on this and previous conversation
@@ -59,6 +65,13 @@
 
 ## TASK
 [Provide an extremely detailed list of tasks that needs to be completed. Preferred is that you focus on 1 task at a time.]
+
+### HOW TO perform this TASK
+- use skills
+- use mcp
+- use tools
+- create agent teams
+- sub agent driven execution
 
 ## QUESTIONS
 [Provide a detailed list of questions that you want to ask the LLM]
