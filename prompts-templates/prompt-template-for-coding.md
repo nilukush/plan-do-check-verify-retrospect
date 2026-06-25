@@ -70,6 +70,11 @@
 - use skills
 - use mcp
 - use tools
+- Deploy 3 agents
+	- Analyzer
+	- Debugger
+	- Verifier
+	- These 3 agents will independently do their analysis and all 3 agents will have to validate each other's findings and next steps will be decided only when all 3 agents are in consensus
 - create agent teams
 - sub agent driven execution
 
